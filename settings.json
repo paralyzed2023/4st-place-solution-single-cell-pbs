@@ -1,0 +1,1 @@
+{"RAW_DATA_DIR": "./data", "TRAIN_SVR_FEAS_DIR": "./data/processed/train_svr_feas/", "TEST_SVR_FEAS_DIR": "./data/processed/test_svr_feas/", "PYBOOST_MODEL_DIR": "./models/pyboost/", "NN_MODEL_DIR": "./models/nn/", "SUBMISSION_DIR": "./submissions/"}

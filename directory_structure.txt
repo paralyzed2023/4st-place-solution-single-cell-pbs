@@ -1,0 +1,39 @@
+.
+├── data
+│   ├── de_train.parquet
+│   ├── id_map.csv
+│   ├── processed
+│   │   ├── test_svr_feas
+│   │   │   ├── test_preds_svr_v1.npy
+│   │   │   └── test_preds_svr_v2.npy
+│   │   └── train_svr_feas
+│   │       ├── oof_preds_svr_v1.npy
+│   │       └── oof_preds_svr_v2.npy
+│   └── sample_submission.csv
+├── directory_structure.txt
+├── ensemble.py
+├── models
+│   ├── nn
+│   │   ├── 0_best_model_checkpoint.pth
+│   │   ├── 1_best_model_checkpoint.pth
+│   │   └── 2_best_model_checkpoint.pth
+│   └── pyboost
+│       ├── model_1.joblib
+│       ├── model_2.joblib
+│       └── model_3.joblib
+├── predict_nn.py
+├── predict_pyboost.py
+├── prepare_data.py
+├── readme.md
+├── requirements.txt
+├── settings.json
+├── submissions
+│   ├── nn.csv
+│   ├── open-sourced-0531.csv
+│   ├── open-sourced-0720.csv
+│   ├── pyboost.csv
+│   └── submission.csv
+├── train_nn.py
+└── train_pyboost.py
+
+8 directories, 28 files
